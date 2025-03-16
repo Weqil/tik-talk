@@ -1,0 +1,40 @@
+.main-login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 232px;
+    height: 100%;
+}
+.form-titLe{
+    font-family: 'JetBrainsMono';
+    font-size: 3rem;
+}
+.login-form__input{
+    width: 100%;
+    font-family: 'JetBrainsMono';
+    box-sizing: border-box;
+    background: var( --dark-color);
+    color: var(--light-color);
+    padding: 0.6rem;
+    border-radius: 2px;
+    outline: none;
+    border: 1px solid var( --light-color);
+}
+.submit-button{
+    margin-top: 1rem;
+}
+.login-form-wrapper{
+    width: 440px;
+}
+.login-form{
+    width: 440px;
+}
+label{
+    margin-top: 1rem;
+    font-family: 'JetBrainsMono';
+    color: var(--light-color);
+    padding-bottom: 8px;
+    font-size: 12px ;
+    display: flex;
+}

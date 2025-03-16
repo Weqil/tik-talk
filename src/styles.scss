@@ -1,4 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
 :root{
     --dark-color: #000000;
     --light-color: #FFFFFF;
@@ -9,8 +15,18 @@
     font-family: "JetBrainsMono";
     src: url("/assets/fonts/JetBrainsMono.ttf");
     font-weight: 500;
-  }
-
+}
+.standart-button{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: var(--dark-color);
+    font-family:var(--standart-font) ;
+}
 body{
     background-image: url('/assets/images/bg.png');
     color: var(--light-color);
