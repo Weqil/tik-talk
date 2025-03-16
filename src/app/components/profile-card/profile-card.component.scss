@@ -1,0 +1,44 @@
+.profile-card{
+    font-family: "JetBrainsMono";
+    border: 1px solid var(--light-color);
+    padding: 32px 24px;
+    display: flex;
+    gap: 2rem;
+}
+.avatar-name{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 2rem;
+}
+.profile-card__description{
+    flex: 1;
+}
+.profile-card__tags{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.profile-card__name{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+.profile-card__avatar{
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.standart-button{
+    background: var(--primary-color);
+    font-family: "JetBrainsMono";
+    padding:  10px 20px;
+    color: var(--dark-color);
+}
+.profile-card__buttons{
+    display: flex;
+    align-items: center;
+}
+
